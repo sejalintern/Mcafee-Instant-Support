@@ -31,6 +31,47 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const DUMMY_BLOG_POSTS: BlogPost[] = [
   {
+    slug: `how-to-uninstall-mcafee-windows-11-${PHONE_NUMBER_CLEAN}`,
+    title: `How to Uninstall McAfee on Windows 11: 3 Quick Methods`,
+    metaDescription: `Discover the top 3 simple ways to successfully uninstall McAfee from Windows 11. For independent 24/7 technical support, call ${PHONE_NUMBER}.`,
+    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800',
+    content: `
+      <p>Windows 11 provides a sleek interface, but uninstalling software like McAfee can sometimes lead to residual files if not done correctly. If you're looking to switch antivirus providers or simply want to remove the software, here are 3 reliable methods to get the job done.</p>
+      
+      <h3>Method 1: Using Windows 11 Settings (The Standard Way)</h3>
+      <p>This is the most direct way for most users to manage their installed applications.</p>
+      <ol>
+        <li>Open the <strong>Start Menu</strong> and click on <strong>Settings</strong> (the gear icon).</li>
+        <li>On the left sidebar, select <strong>Apps</strong>.</li>
+        <li>Click on <strong>Installed apps</strong>.</li>
+        <li>Scroll down until you find your McAfee product.</li>
+        <li>Click the three dots (...) next to it and select <strong>Uninstall</strong>.</li>
+        <li>Confirm by clicking Uninstall again and follow the on-screen prompts from the McAfee uninstaller.</li>
+      </ol>
+
+      <h3>Method 2: Using the Control Panel</h3>
+      <p>If the Settings app isn't working for you, the classic Control Panel is a robust 2nd option.</p>
+      <ul>
+        <li>Press the <strong>Windows Key + R</strong>, type "control" and press Enter.</li>
+        <li>Under <strong>Programs</strong>, click on <strong>Uninstall a program</strong>.</li>
+        <li>Locate McAfee in the list of programs.</li>
+        <li>Right-click it and select <strong>Uninstall/Change</strong>.</li>
+        <li>Follow the instructions to complete the removal.</li>
+      </ul>
+
+      <h3>Method 3: McAfee Consumer Product Removal (MCPR) Tool</h3>
+      <p>Sometimes standard uninstallation leaves "ghost" files that can cause conflicts. In these cases, using the official removal tool is the best 3rd option.</p>
+      <ol>
+        <li>Download the MCPR tool from the official website.</li>
+        <li>Run the <strong>MCPR.exe</strong> file.</li>
+        <li>Follow the security validation and click <strong>Next</strong>.</li>
+        <li>Wait for the process to complete (this may take several minutes) and then restart your computer.</li>
+      </ol>
+
+      <p>Having trouble with a stubborn installation or experiencing "McAfee not loading" issues? Our independent experts are here to help you clean your system and optimize your Windows 11 experience. Call us at <a href="tel:${PHONE_NUMBER_CLEAN}" class="text-blue-600 hover:underline font-bold">${PHONE_NUMBER}</a> for personalized 1-on-1 assistance.</p>
+    `,
+  },
+  {
     slug: `mcafee-vpn-disconnecting-fix-${PHONE_NUMBER_CLEAN}`,
     title: `Fix: McAfee VPN Keeps Disconnecting – Call ${PHONE_NUMBER}`,
     metaDescription: `Troubleshooting steps for McAfee VPN disconnecting. Get independent support by calling ${PHONE_NUMBER}.`,
