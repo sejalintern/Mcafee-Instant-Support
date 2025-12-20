@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -22,7 +22,7 @@ function App() {
   }, [theme.primaryColor]);
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="flex flex-col min-h-screen font-sans">
         <Header />
         <main className="flex-grow">
@@ -40,7 +40,7 @@ function App() {
         <Footer />
         <CallToActionSticky />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
